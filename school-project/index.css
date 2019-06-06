@@ -1,0 +1,599 @@
+*{
+box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+    width: 1300px;
+    font-size: 42.5%;
+    font-family: 'Mukta', sans-serif;
+    max-width: 1350px;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+    
+
+}
+
+ body
+{
+  margin: 0;
+  /*padding: 1.2rem;*/
+  
+  
+}
+.header{
+    height: 100vh;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 4rem;
+    height: 230px;
+    text-align: center;
+    color: #EC4D37;
+     top: 30%;
+    right: 30%;
+    font-family: 'Indie Flower', cursive;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+
+.heading--1 span {
+/*  font: 26px Monaco, MonoSpace;*/
+  height: 320px;
+  position: absolute;
+  width: 36px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+.footer{
+    width: 106%;
+    height: 100vh;
+    background-color: brown;
+}
+
+.heading--2{
+    position: absolute;
+    letter-spacing: 10px;
+    top: 60%;
+    left: 0%;
+    transform: translateX(-100px);
+    
+}
+.char1 { transform: rotate(-54deg); }
+.char2 { transform: rotate(-48deg); }
+.char3 { transform: rotate(-42deg); }
+.char4 { transform: rotate(-36deg); }
+.char5 { transform: rotate(-30deg); }
+.char6 { transform: rotate(-24deg); }
+.char7 { transform: rotate(-18deg); }
+.char8 { transform: rotate(-12deg); }
+.char9 { transform: rotate(-6deg); }
+.char10 { transform: rotate(0deg); }
+.char11 { transform: rotate(6deg); }
+.char12 { transform: rotate(12deg); }
+.char13 { transform: rotate(18deg); }
+.char14 { transform: rotate(24deg); }
+.char15 { transform: rotate(30deg); }
+.char16 { transform: rotate(36deg); }
+.char17 { transform: rotate(42deg); }
+.char18 { transform: rotate(48deg); }
+.char19 { transform: rotate(54deg); }
+.char20 { transform: rotate(60deg); }
+
+
+.about{
+    height: 100vh;
+    width: 106%;
+    margin: 0;
+    left: 0;
+    background-image: url(61579633-back-to-school-seamless-pattern-can-be-used-for-wallpaper-website-background-wrapping-paper-study-br.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.about__name-holder{
+    height: 8rem;
+    width: 60%;
+    background-color: #282936;
+    float: right;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.about__name{
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.paragraph{
+    color: #888787;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+
+a {
+    margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+a.learn-more {
+  width: 12rem;
+  height: auto;
+      
+}
+a.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+a.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+a.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+a.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+a.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  font-size: 1.2rem;    
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:hover .circle {
+  width: 100%;
+}
+a:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+a:hover .button-text {
+  color: #fff;
+}
+
+
+
+.events{
+    margin: 0;
+    height: 100vh;
+    width: 106%;
+
+    background-color: dimgray;
+}
+.row {
+  max-width: 114rem;
+    padding: 15rem 5rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 6rem; } }
+  @media (max-width: 56.25em) {
+    .row {
+      max-width: 50rem; } }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem)/2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2*6rem)/3); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3*6rem)/4); }
+
+
+
+
+.u-center-1 {
+  text-align: center; }
+.u-margin-top-10 {
+  margin-top: -30rem; 
+}
+
+/*-------------------------------------------------------------LEARN-MORE-BUTTON--------------------------------------------------------------------*/
+
+a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+a.learn-more {
+  width: 12rem;
+  height: auto;
+}
+a.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+a.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+a.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+a.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+a.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  font-size: 1.2rem;    
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:hover .circle {
+  width: 100%;
+}
+a:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+a:hover .button-text {
+  color: #fff;
+}
+
+/*------------------------------------------------------------TEACHERS-------------------------------------------------------------------------------*/
+.teachers{
+    width: 106%;
+}
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 25rem; }
+  .card__side {
+    height: 25rem;
+    font-size: 1.6rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 106%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
+      background-color: #000000; }
+
+  .card__picture {
+    background-size: cover;
+    height: 20rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+    .card__picture--1 {
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/dog-2.jpg);
+      background-blend-mode: screen;
+
+}
+    .card__picture--2 {
+      background-image: linear-gradient(to right bottom, #7ed57f, #28b485), url(../img/dog-5.jpg);
+      background-blend-mode: screen;
+
+}
+    .card__picture--3 {
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/dog-4.jpg);
+      background-blend-mode: screen;
+}
+
+.card__side:hover {
+    height: 30rem;
+    box-shadow: 0 0.25rem 0.4 rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+ .card__side:not(:hover) {
+    transform: scale(0.95);
+}
+
+.teacher__sen{
+    color: aqua;
+    opacity: 0;
+    transition: all .8s ease;
+}
+
+.card__side:hover .teacher__sen{
+    transform: translateY(1.5rem);
+    opacity: 1;
+}
+
+.reviews{
+    height: 100vh;
+    width: 106%;
+
+    background-color: red;
+}
+
+.gallery{
+    height: 100vh;
+    width: 106%;
+    background-color: blue;
+}
+
+
+
+.reviews .review-1{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: .5%;
+    height: 20%;
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: white;
+    text-align: center;
+    background-color:/* #3EB650*/#659DBD; 
+    
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+}
+
+
+.reviews .review-2{
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: .5%;
+    height: 20%;
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+    background-color: /*#2A3166*/ #116466; 
+    
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+}
+
+
+
+.reviews .review-3{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: .5%;
+    height: 20%;
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: white;
+    text-align: center;
+    background-color: #2F4454; 
+    
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+clip-path: polygon(0 0, 100% 1%, 100% 100%, 75% 75%, 50% 76%, 0% 75%);
+}
+
+
+.mail{
+      width: 300px;
+}
+.mail button {
+      width: 100px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 20%;
+   margin-left: 180%;
+} 
+.mail a{
+    color: white;
+    font-family: 'Raleway';
+}
+.mail button:hover{
+    background-color:red;
+}
+
+
+.mySlides {
+    
+    height: 479px;
+    display:none;}
+
+
+/* 
+
+
+
+
+responsiveness
+
+*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+    .header{
+        height: 60vh;
+    }
+    
+    .heading{
+    font-size: 2rem;
+    height: 150px;
+    text-align: center;
+    color: #EC4D37;
+     top: 30%;
+    left: 50%;
+    font-family: 'Indie Flower', cursive;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+}
+    .heading--1 span {
+/*  font: 26px Monaco, MonoSpace;*/
+  height: 240px;
+  position: absolute;
+  width: 25px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+    
+    .heading--2{
+    font-size: 2rem;
+    position: absolute;
+    letter-spacing: 10px;
+    top: 40%;
+    left: 40%;
+    transform: translateX(-100px);
+    
+}
+    
+    /*---------------------------------------------------------------------------------------------------------------------------------------about------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    
+    
+    .about{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-image: url(61579633-back-to-school-seamless-pattern-can-be-used-for-wallpaper-website-background-wrapping-paper-study-br.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    
+}
+
+
+.about__name-holder{
+    height: 8rem;
+    width: 100%;
+    background-color: #282936;
+    float: left;
+   /* float: right;*/
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.about__name{
+    font-size: 3rem;
+    color: #ffffff;
+}
+   .paragraph{
+    color: #888787;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+    
+    
+   /* ----------------------------------------------events--------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .events{
+    height: 100%;
+
+    background-color: dimgray;
+}
+    
+    
+    
+}
